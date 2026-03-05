@@ -164,11 +164,9 @@ input{
 .foot{
     background:linear-gradient(to right,#ff512f,#dd2476);
     padding-top:100px;
+    color:white
 }
 
-.i{
-    color:white;
-}
 
 .heading{
     margin-bottom:20px;
