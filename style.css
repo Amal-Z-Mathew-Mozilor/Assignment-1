@@ -1,6 +1,6 @@
 .hero{
     position:relative;
-    height:40vh;
+    height:45vh;
     background:linear-gradient(to right,#ff512f,#dd2476);
     display:flex;
     flex-direction:column;
@@ -162,9 +162,12 @@ input{
 }
 
 .foot{
-    background:linear-gradient(to right,#ff512f,#dd2476);
     padding:30px 20px;
     color:white;
+    text-align:center;
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
     text-align:center;
     
 }
@@ -203,6 +206,20 @@ input{
 .hero{
     padding:40px 20px;
 }
+.footer_container{
+flex-direction:column;
+gap:15px;
+text-align:center;
+}
+
+.foot{
+position:static;
+transform:none;
+}
+
+.footer_contact{
+align-items:center;
+}
 
 
 }
@@ -220,12 +237,23 @@ html
 }
 .footer_container
 {
-    display:flex;
+     display:flex;
      background:linear-gradient(to right,#ff512f,#dd2476);
      align-items:center;
+     justify-content:space-between;
+     padding:30px 40px;
+     position:relative;
 }
 .footer_contact h4,
 .footer_contact p
 {
     margin:0;
+}
+.footer_logo
+{
+   font-family:Georgia, 'Times New Roman', serif;   
+   color:white;
+   font-family:Georgia, 'Times New Roman', serif;
+    font-size:30px;
+    font-weight:700;
 }
