@@ -163,8 +163,9 @@ input{
 
 .foot{
     background:linear-gradient(to right,#ff512f,#dd2476);
-    padding-top:100px;
-    color:white
+    padding:30px 20px;
+    color:white;
+    text-align:center;
 }
 
 
