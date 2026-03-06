@@ -1,6 +1,6 @@
 .hero{
     position:relative;
-    height:100vh;
+    height:40vh;
     background:linear-gradient(to right,#ff512f,#dd2476);
     display:flex;
     flex-direction:column;
@@ -166,12 +166,13 @@ input{
     padding:30px 20px;
     color:white;
     text-align:center;
+    
 }
 
 
 .heading{
     margin-bottom:20px;
-    font-family:Arial, sans-serif;;
+    font-family:Arial, sans-serif;
     font-size:18px;
     color:white;
 }
@@ -208,4 +209,23 @@ input{
 html
 {
     scroll-behavior: smooth;
+}
+.footer_contact
+{
+    padding: 20px 30px;
+    display:flex;
+    flex-direction:column;
+    color:white;
+    gap:5px;
+}
+.footer_container
+{
+    display:flex;
+     background:linear-gradient(to right,#ff512f,#dd2476);
+     align-items:center;
+}
+.footer_contact h4,
+.footer_contact p
+{
+    margin:0;
 }
