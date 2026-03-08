@@ -122,11 +122,17 @@ input{
 #three:checked ~ .slides{
     transform:translateX(-900px);
 }
-
+#one:checked ~ .button label[for="one"],
+#two:checked ~ .button label[for="two"],
+#three:checked ~ .button label[for="three"]{
+background:#065f46;
+transform:scale(1.1);
+}
 .button{
     margin-top:30px;
     display:flex;
     gap:30px;
+    padding:10px 100px;
 }
 
 .button label{
