@@ -182,7 +182,7 @@ transform:scale(1.1);
 .heading{
     margin-bottom:20px;
     font-family:Arial, sans-serif;
-    font-size:18px;
+    font-size:25px;
     color:white;
 }
 @media (max-width:768px){
